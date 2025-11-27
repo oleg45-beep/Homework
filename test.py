@@ -1,7 +1,5 @@
 import numpy as np
-L = np.array([5, 2, 8, 1, 9, 3])
+L = np.arange(15, 30, 1)
+M = np.linspace(0, 1, 11)
 print(L)
-print(L.ndim)
-print(L.shape)
-print(L.dtype)
-print(L.size)
+print(M)
