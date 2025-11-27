@@ -1,7 +1,6 @@
 import numpy as np
-L = np.zeros((4, 5))
-N = np.ones((3, 3), dtype=int)
-M = np.random.randint(10, 50, (2, 6))
-print(L)
-print(N)
-print(M)
+arr = np.arange(0, 21)
+print(arr[:5])
+print(arr[-5:])
+print(arr[::2])
+print(arr[::-1])
