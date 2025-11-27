@@ -1,5 +1,7 @@
 import numpy as np
-L = np.arange(15, 30, 1)
-M = np.linspace(0, 1, 11)
+L = np.zeros((4, 5))
+N = np.ones((3, 3))
+M = np.random.randint(10, 50, (2, 6))
 print(L)
+print(N)
 print(M)
